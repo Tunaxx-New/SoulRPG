@@ -1,0 +1,48 @@
+.panel {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(246, 238, 227);
+    position: absolute;
+    transition: left 0.1s ease-in-out;
+}
+
+.panel.hidden {
+    left: -40%;
+}
+
+.panel.show {
+    left: 0%;
+}
+
+.section-title {
+    font-size: 14px;
+    white-space: normal; /* Allow the text to wrap normally */
+    word-wrap: break-word; /* Ensure words break and wrap to the next line */
+    overflow: visible;
+}
+
+/* Sub-label for details or content */
+.sub-text {
+    font-size: 12px;
+    white-space: normal;
+    max-width: 95%;
+}
+
+.space-up-bottom {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.border {
+    border-width: 1px;
+    border-color: #777777;
+    border-radius: 6px;
+}
+
+.no-margin {
+    margin: 0!important;
+}
+
+.no-padding {
+    padding: 0!important;
+}

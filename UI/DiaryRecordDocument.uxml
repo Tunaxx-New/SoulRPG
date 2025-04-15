@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIStyle.uss?fileID=7433441132597879392&amp;guid=70fa7bb05a8b5384f8f133be96cd0913&amp;type=3#UIStyle" />
+    <ui:GroupBox class="border">
+        <ui:GroupBox class="no-padding no-margin">
+            <ui:Label text="Brain" display-tooltip-when-elided="true" name="brain" class="section-title" />
+            <ui:Label text="Brain department" display-tooltip-when-elided="true" name="brain-department" class="sub-text" />
+        </ui:GroupBox>
+        <ui:GroupBox class="no-padding no-margin">
+            <ui:Label text="Intellect" display-tooltip-when-elided="true" name="intellect" class="section-title" />
+            <ui:Label text="Intellect Fingerprint" display-tooltip-when-elided="true" name="intellect-fingerprint" class="sub-text" />
+        </ui:GroupBox>
+        <ui:Label text="MessageMessageMessageMessageMessageMessageMessageMessageMessage" display-tooltip-when-elided="true" name="message" class="section-title space-up-bottom" />
+        <ui:GroupBox class="no-margin">
+            <ui:Label text="Object" display-tooltip-when-elided="true" name="object-name" />
+            <ui:Label text="Action" display-tooltip-when-elided="true" name="action-name" />
+            <ui:Slider picking-mode="Ignore" label="Confrontation" value="42" high-value="100" name="confrontation-ratio" />
+            <ui:Label text="00.00.0000" display-tooltip-when-elided="true" name="time" style="-unity-text-align: upper-right;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
